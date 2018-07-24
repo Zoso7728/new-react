@@ -1,0 +1,34 @@
+{
+  "name": "new-react",
+  "version": "1.0.0",
+  "description": "react app from scratch",
+  "main": "app.js",
+  "homepage": "https://github.com/Zoso7728/new-react#readme",
+  "author": "Marques Robinson <spurs.1208@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoso7728/new-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoso7728/new-react.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "eslint": "5.2.0",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.10.0",
+    "pre-commit": "1.2.2"
+  }
+}
